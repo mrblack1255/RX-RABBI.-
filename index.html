@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RX-RABBI // RX DANGER</title>
+<style>
+body{background:#000;color:#0f0;font-family:monospace;text-align:center;padding:20px}
+h1{color:red;font-size:32px;text-shadow:0 0 15px red}
+#typing{color:#fff;font-size:22px;min-height:30px}
+.badge{display:inline-block;padding:6px 12px;margin:5px;border-radius:5px;font-weight:bold}
+.red{background:red;color:white}
+.black{background:#111;color:red;border:1px solid red}
+.green{background:#0f0;color:black}
+button{background:red;color:white;padding:10px 20px;border:none;border-radius:8px;font-size:16px;margin-top:15px}
+#box{display:none;border:1px solid red;padding:15px;margin-top:15px;text-align:left;color:white}
+</style>
+</head>
+<body>
+
+<h1>ö [ ラッピ ] // 𝔇.𝔛</h1>
+<div id="typing"></div>
+
+<p>Hyper-Unique Cyber-Brutalism & Void Protocol Tag</p>
+
+<span class="badge red">RED HAT HACKER</span>
+<span class="badge black">VOID PROTOCOL</span>
+<span class="badge green">CREATOR - RX DANGER</span>
+
+<p>> Targeting... Scanning...<br>
+> Physical // Cyber - Connection Broken<br>
+> Access Granted_</p>
+
+<button onclick="showBox()">⚡ CLICK KORE BREAKDOWN DEKHO</button>
+
+<div id="box">
+<b>Breakdown:</b><br><br>
+- ö (The Void Reticle): Targeting and scanning symbol.<br>
+- [ ラッピ ] (The Core Identity): Katakana core identity representing "Rabbi".<br>
+- // (The Terminal Break): Separation between physical and cyber world.<br>
+- 𝔇.𝔛 (Danger Terminal X): RX DANGER's elite signature.<br>
+- RED HAT HACKER
+</div>
+
+<br><br>
+<button onclick="window.open('https://rxxm.cc.cc/')">VISIT rxxm.cc.cc</button>
+
+<p style="color:white">Made By RX DANGER | RX-RABBI © 2026<br>
+<i>Chup Chap Thaki, Kintu Void Theke Dekhi.</i></p>
+
+<script>
+// RX-RABBI Typing Animation - JavaScript
+const texts = ["RX DANGER", "RX-RABBI", "RED HAT HACKER", "Access Granted..."];
+let i = 0, j = 0;
+let el = document.getElementById("typing");
+
+function type() {
+  if (j <= texts[i].length) {
+    el.innerHTML = texts[i].substring(0, j) + "_";
+    j++;
+    setTimeout(type, 100);
+  } else {
+    setTimeout(() => { j = 0; i = (i + 1) % texts.length; type(); }, 1500);
+  }
+}
+type();
+
+function showBox() {
+  let box = document.getElementById("box");
+  if (box.style.display === "none" || box.style.display === "") {
+    box.style.display = "block";
+  } else {
+    box.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
